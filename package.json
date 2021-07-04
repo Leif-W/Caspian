@@ -1,14 +1,35 @@
 {
   "name": "caspian",
-  "version": "0.0.0",
+  "version": "0.0.0.0",
   "description": "Caspian - The world's largest endorheic lake.",
   "main": "index.js",
   "scripts": {
     "test": "test.js"
   },
+  "author": "Leif-W",
+  "license": "GPL-3.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Leif-W/Caspian.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Leif-W/Caspian/issues"
+  },
+  "homepage": "https://github.com/Leif-W/Caspian#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.0",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "firebase": "^8.7.0",
+    "firebase-admin": "^9.10.0",
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4"
   },
   "keywords": [
     "Caspian",
@@ -22,27 +43,8 @@
     "Redux",
     "Tailwind",
     "Firebase",
-    "Vercel"
-  ],
-  "author": "Leif-W",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/Leif-W/Caspian/issues"
-  },
-  "homepage": "https://github.com/Leif-W/Caspian#readme",
-  "dependencies": {
-    "@reduxjs/toolkit": "^1.6.0",
-    "@tailwindcss/line-clamp": "^0.2.1",
-    "firebase": "^8.6.5",
-    "firebase-admin": "^9.9.0",
-    "next": "^10.2.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-redux": "^7.2.4"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.0",
-    "tailwindcss": "^2.1.4"
-  }
+    "Vercel",
+    "Node.js",
+    "pnpm"
+  ]
 }

@@ -10,6 +10,23 @@ It's a body of water that goes nowhere.
 
 As a clone demo of a popular marketplace named after the world's largest continental moving body of water, this seemed an appropriate antithesis.
 
+# Using
+
+## Package managers
+
+### Overview of options
+
+* npm v7 (current) fails to install yarn, firebase, firebase-admin, and many others
+* npm v6 (unmaintained) seems to work without errors
+* yarn v1 installs everything ok, if you can get it outside npm, but convoluted process to upgrade to v1.23, which is no longer developed
+* yarn v2 has unmet peer dependencies for firebase and firebase-admin, and convoluted process to update to v2
+* yarn v3 throws too many errors and fails hard, and convoluted process to upgrade to v3
+* pnpm has unmet peer dependencies, is very fast, and uses less disk space, supports US and British Colonialism by using the stolen Indian Ocean TLD .io
+
+### Which to choose?
+
+At the time of writing, only npm v6, and yarn v1 install all dependencies without warnings or errors.  However, pnpm has a warning, but otherwise is simpler, faster and uses less disk space.  So let's try pnpm.
+
 # Contributing
 
 ## Git
