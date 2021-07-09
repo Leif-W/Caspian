@@ -45,15 +45,15 @@ Use emoji to represent types.
 
 Types:
 
-- 🟢 - fea - a new feature added
-- 🟡 - ref - refactor code
-- 🟠 - fix - a normal bug fix
-- 🔴 - cri - a critical bug fix
-- 🟣 - sty - style update
-- 🔵 - tes - tests
-- ⚪ - doc - documentation
-- 🟤 - cho - maintenance chores
-- ⚫ - rem - an old feature removed
+- 🟢(fea) a new feature added
+- 🟡(ref) refactor code
+- 🟠(fix) a normal bug fix
+- 🔴(cri) a critical bug fix
+- 🟣(sty) style update
+- 🔵(tes) tests
+- ⚪(doc) documentation
+- 🟤(cho) maintenance chores
+- ⚫(rem) an old feature removed
 
 * TODO: Improve emoji.  Can you suggest other emoji schemes?
 * TODO: Define scopes.  Maybe use other emoji for scopes?
