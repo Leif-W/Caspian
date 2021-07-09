@@ -4,7 +4,10 @@
   "description": "Caspian - The world's largest endorheic lake.",
   "main": "index.js",
   "scripts": {
-    "gitignore": "node util/gitignore.js"
+    "build": "next build",
+    "dev": "next",
+    "gitignore": "node util/gitignore.js",
+    "start": "next start"
   },
   "author": "Leif-W",
   "license": "GPL-3.0",
