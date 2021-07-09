@@ -27,6 +27,10 @@ As a clone demo of a popular marketplace named after the world's largest contine
 
 At the time of writing, only npm v6, and yarn v1 install all dependencies without warnings or errors.  However, pnpm has a warning, but otherwise is simpler, faster and uses less disk space.  So let's try pnpm.
 
+### Next.js Telemetry Opt-Out and Informed Consent
+
+After installation, before running `pnpm build`, `pnpm dev`, or `pnpm start`, you should be informed that Next.js will collect lots of allegedly anonymous telemetry data. Next.js only informs you after the fact that you were opted in by default.  In other words, without informed consent.  This is my effort to inform you.  If you do not consent, run `pnpx next telemetry disable`.  You may also opt-out by setting the environment variable `NEXT_TELEMETRY_DISABLED=1`.  We can not do either of these things for you, as they can only be done on your end.  However, the environment variable will be in the `.env.local.example` file, which you can initially copy to your `.env.local` file.
+
 # Contributing
 
 ## Git
