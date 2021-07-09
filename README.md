@@ -31,6 +31,10 @@ At the time of writing, only npm v6, and yarn v1 install all dependencies withou
 
 ## Git
 
+### .gitignore
+
+From time to time, the .gitignore file may need to be updated.  Tools evolve, and various cruft will inevitably be left behind as you work on this app.  However, do not edit the .gitignore file manually.  Instead, for now, edit the `util/gitignore.js` file (_Custom Rules_ section in the `footerText` variable), then run the script with `node util/gitignore.js` or `pnpm gitignore`.  This is a crude script based upon the Toptal .gitignore API, https.get, and fs.writeFileSync, which may be replaced with something more elegant in the future.
+
 ### Commit messages
 
 Format: `[type](scope): short description`
