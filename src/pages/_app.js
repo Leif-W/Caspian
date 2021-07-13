@@ -1,8 +1,11 @@
 'use strict';
 
-const App = () => {
+const App = ({Component, pageProps}) => {
 	return(
-		<div>App</div>
+		<div>
+			<Component {...pageProps} />
+			App
+		</div>
 	);
 };
 
