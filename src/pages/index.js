@@ -4,13 +4,15 @@ import Header from '../components/Header';
 
 const Home = () => {
 	return(
-		<div>
+		<>
 			{/* Header */}
 			<Header />
 
 			{/* Content */}
-			Home
-		</div>
+			<main>
+				<h2>Home</h2>
+			</main>
+		</>
 	);
 };
 
