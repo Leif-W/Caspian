@@ -7,11 +7,12 @@ const Header = () => {
 	return(
 		<header>
 			{/* top nav */}
-			<div>
+			<div className='flex items-center bg-caspian_blue-dark'>
 				{/* img */}
 				<div>
 					<Image
 						alt='Caspian logo'
+						className='cursor-pointer'
 						height={40}
 						src={logoImg}
 						width={150}
