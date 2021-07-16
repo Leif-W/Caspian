@@ -1,7 +1,7 @@
 'use strict';
 
 import Image from 'next/image';
-import logoImg from '../../public/logo.png';
+import logoImg from '../../public/logo.svg';
 
 const Header = () => {
 	return(

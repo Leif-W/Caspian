@@ -1,0 +1,27 @@
+<svg
+	width="150"
+	height="40"
+	viewBox="0 0 150 40"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<style type="text/css">
+		@font-face {
+			font-family: 'Chango-Regular-acinps';
+			src: local('Chango Regular acinps'), local('Chango-Regular-acinps'), url('data:font/woff2;charset=utf-8;base64,d09GMgABAAAAAAXEAA0AAAAAC6gAAAVzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYGYABcEQgKhVCEZwsUAAE2AiQDJAQgBYwwBzQMBxtJClFUbLJkXxzYxqwHG4SASGftpi7EwBD3W+/ioKHTAJ/Lg8CTEURr6Ow9BwBdHDliSSoyKsbGAhkVZ6CAqkIDu/7fnN6lU+K/Kg7JqBEkadlf+MIv/xf1ViEnJJGxM3Y8L7ve/iYBYECWSOIBnt1PeW9vUieFjEzb1aSgT2ufYZ9+/osC/P2hasakXADXu4toLMKJyFjjW9Za7XnP6wVb67xem8N6tVaoQBMAC0xdxHOgzk45yBMTaAMkIdRCyvsYUJBumsK9Eo1nsdpq1XjDr+VwT2fsmID5Z4Slr18EpJVeMIUjIUOflkCfIweYDrWkdMYnlWr4I/6ek9miGRPGjYYAV0XHmozAN7oeP+crQNiBRsshIAHnr4ABrSkvakJr65X0xt1mFzZo+mpLGY+hWzShyR189y7nh/BZcln2ONnC2wZ3kziVeYTJcfZMATnP3ma4u1R6HLtge4vcIdz4bkjcdIRFU2Z4aZu3OzUnNrL32FK+g7D8XY3l7QTuNvAidiOEcxLwFjkOcNHGsvg1WsWgRdXgLne7PphYbw6H6fYqT+THcSeUzt1lijDecuwmM3psBNjYmVofY0/9TnwKPpWDz965cxHhHC5udZPdIHfsiai8rbmBzazgj8Tb3G1uVSmcuodSpmTH9e5rNQiiPG35VlPoqCqyLzK2XJ19xG/TlnTu7YRWn1fBTKJx7ZIZSDnIe/e7ScPHOkteuoOPm0yIrKQu8lWvVs7TmMtmcrW9HY0yRz1r2oscF+ITlVN6dSUiFKBd4LpOuWChYqLmzQD+vCj+k5KC3kScga5W6YPffX3sLMsHEbUcY21TDv9N4L/GZ/N0NY8Dke16AuP4WJrjkLgocnl+Otd1ynVQeNQLtpy6OCl7QO8y0toPF6Zdr7kqpqtFqKVblJ4CpTC6plLXMbP5IIkwLg/zt7vUnp8nGCQQJ1Wqc1k7E1AmjFPhsimgvk/tm6+kn8J/y7MG0BFq0mPv2qoQbjagra3w3kfGR9nc0yrzDg2kGJ1s8JiUyjEtAIAAJuD0Z/M8N0PC9bcwk2N4oubuAfBFfv4EGPEi+Jyof6hBAYYANnOkZO/ACNRbdJ6EVU1DBLTcCzJ7MKIOgw26Am58peb/3QPcqUkwkhBHY54CEkJgAwOM1RIHnGAChNIJDpIOpzjItDvHQa4f4aDQ7lKAUr9HASqz3gWoNV4J0GjzWYBW3f4FaAuh3YNfR3cYqXuZmAaPMRdCaMsOJGMZQ2YkOeTmclAVjQg/VCXxDyp7+QW1nragMdQ2tJrpYLQNh/aayg6rOizN00+Tmv3uIQfx5aWSjTd1Z7FuP47i4hWDrrsbIT/oKu5QvHurbb+QRlc5sifG5Q6FL8sa0+MQkbWUZcj2ImOGqusGPn2I3vq3oZLVh/jKMEVtDaovvXY5Yq/qcL8WbocvWe1KIMt/Z0G+49CySnXPbuyHS0jalL1YuqWeQlYDOcnQxuBbmzAi72QCgqx7hGWfTYpQ5qv7FY4u7Yanxs5UajsNKZYgoMPXBUw6gwFcqpQIIkIs7OC1pVKkcixq9VFVvkqhawBsSCQBpkIo1FgLBcXSgYsvwm1nkhi/UqwSI784tpITGkMruvZOZoSGndC5QbMEhpCElAkMKn0otJOLGkJAEha/MSANIRAqENaeAZVo6E5T0xqnQNXKZ+SAnV0L7W30WdVx4J5LILQPa82sWkQ2MAwhyK1yki9UwvGDVkrA4uGESEJUz9ywgVH142Wh4zYyZtB9iIpNHYDqXGXrMHvrmiDlBE8unJY0gkAnJuHnPbGABCE1i0aDfA2pRpAKSTlVpRHTjFyyO7coNIH/O9mi6gYh2elw3YmZ5Qnew8/0AgAA') format('woff2');
+			font-weight: normal;
+			font-style: normal;
+			font-display: swap;
+		}
+		#caspian {
+			fill: #eff7ef;
+			font-family: 'Chango-Regular-acinps';
+			font-style: normal;
+			font-weight: normal;
+			font-size: 1.5em;
+		}
+	</style>
+	<g>
+		<text id="caspian" x="10" y="35">caspian</text>
+	</g>
+</svg>
+
