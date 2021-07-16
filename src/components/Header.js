@@ -7,7 +7,7 @@ const Header = () => {
 	return(
 		<header>
 			{/* top nav */}
-			<div className='flex items-center bg-caspian_blue-dark'>
+			<div className='flex items-center bg-caspian_blue-pitch'>
 				{/* img */}
 				<div>
 					<Image
