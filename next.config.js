@@ -1,5 +1,9 @@
 'use strict';
 
+const os = require('./util/OS.js');
+const app = require('./util/App.js');
+const path = require('path');
+
 module.exports = {
 	webpack: (config) => {
 		let ignoredFiles = [
@@ -21,6 +25,17 @@ module.exports = {
 			// Vim Persistent undo
 			'**/[._]*.un~',
 		];
+
+		if (os.isTermux()) {
+			app.setBaseDir();
+			let ignore_path = global.__basedir;
+
+			// ignore all paths above project's basedir
+			while(ignore_path != '/') {
+				ignore_path = path.resolve(ignore_path, '..');
+				ignoredFiles.push(ignore_path);
+			}
+		}
 
 		ignoredFiles.forEach((item) => {
 			config.watchOptions.ignored.push(item);
