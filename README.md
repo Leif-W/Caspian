@@ -1,6 +1,6 @@
 # Caspian
 
-![Caspian logo](public/logo.png)
+![Caspian logo](public/logo.svg)
 
 ## The world's largest endorheic lake.
 
