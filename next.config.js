@@ -2,7 +2,10 @@
 
 module.exports = {
 	webpack: (config) => {
-		[
+		let ignoredFiles = [
+			// Vim ignore patterns pulled from .gitignore
+			// Transformed to glob-to-regex syntax
+
 			// Vim Swap files
 			'**/[._]*.s[a-v][a-z]',
 			'**/[._]*.sw[a-p]',
@@ -17,9 +20,12 @@ module.exports = {
 			'**/tags',
 			// Vim Persistent undo
 			'**/[._]*.un~',
-		].forEach((item) => {
+		];
+
+		ignoredFiles.forEach((item) => {
 			config.watchOptions.ignored.push(item);
 		});
+
 		return config;
 	},
 	webpack5: true,
