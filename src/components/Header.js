@@ -7,13 +7,14 @@ const Header = () => {
 	return(
 		<header>
 			{/* top nav */}
-			<div className='flex items-center bg-caspian_blue-pitch'>
+			<div className='bg-caspian_blue-pitch flex flex-grow items-center p-1 py-2 sm:flex-grow-0'>
 				{/* img */}
-				<div>
+				<div className='flex flex-grow items-center mt-2'>
 					<Image
 						alt='Caspian logo'
 						className='cursor-pointer'
 						height={40}
+						objectFit='contain'
 						src={logoImg}
 						width={150}
 					/>
