@@ -22,13 +22,13 @@
   "homepage": "https://github.com/Leif-W/Caspian#readme",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
-    "eslint": "^7.30.0",
+    "eslint": "^7.31.0",
     "eslint-config-next": "^11.0.1",
     "postcss": "^8.3.5",
     "tailwindcss": "^2.2.4"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.6.0",
+    "@reduxjs/toolkit": "^1.6.1",
     "@tailwindcss/line-clamp": "^0.2.1",
     "firebase": "^8.7.1",
     "firebase-admin": "^9.11.0",
