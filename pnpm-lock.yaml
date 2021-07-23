@@ -10,7 +10,7 @@ specifiers:
   firebase: ^8.7.1
   firebase-admin: ^9.11.0
   next: ^11.0.1
-  postcss: ^8.3.5
+  postcss: ^8.3.6
   react: ^17.0.2
   react-dom: ^17.0.2
   react-redux: ^7.2.4
@@ -28,11 +28,11 @@ dependencies:
   react-redux: 7.2.4_react-dom@17.0.2+react@17.0.2
 
 devDependencies:
-  autoprefixer: 10.3.1_postcss@8.3.5
+  autoprefixer: 10.3.1_postcss@8.3.6
   eslint: 7.31.0
   eslint-config-next: 11.0.1_eslint@7.31.0+next@11.0.1
-  postcss: 8.3.5
-  tailwindcss: 2.2.4_d0cbdb03a6e75c60c9760f17c403e6d9
+  postcss: 8.3.6
+  tailwindcss: 2.2.4_7b69a43ec4689fa7484dee35f79a7806
 
 packages:
 
@@ -430,12 +430,12 @@ packages:
     resolution: {integrity: sha512-dZMzN0uAjwJXWYYAcnxIwXqRTZw3o14hGe7O6uhwjD1ZQWPVYA5lASgnNskEBra0knVBsOXB4KXg+HnlKewN/A==}
     dev: false
 
-  /@fullhuman/postcss-purgecss/4.0.3_postcss@8.3.5:
+  /@fullhuman/postcss-purgecss/4.0.3_postcss@8.3.6:
     resolution: {integrity: sha512-/EnQ9UDWGGqHkn1UKAwSgh+gJHPKmD+Z+5dQ4gWT4qq2NUyez3zqAfZNwFH3eSgmgO+wjTXfhlLchx2M9/K+7Q==}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
-      postcss: 8.3.5
+      postcss: 8.3.6
       purgecss: 4.0.3
     dev: true
 
@@ -722,7 +722,7 @@ packages:
     peerDependencies:
       tailwindcss: '>=2.0.0'
     dependencies:
-      tailwindcss: 2.2.4_d0cbdb03a6e75c60c9760f17c403e6d9
+      tailwindcss: 2.2.4_7b69a43ec4689fa7484dee35f79a7806
     dev: false
 
   /@tootallnate/once/1.1.2:
@@ -1097,7 +1097,7 @@ packages:
     dev: false
     optional: true
 
-  /autoprefixer/10.3.1_postcss@8.3.5:
+  /autoprefixer/10.3.1_postcss@8.3.6:
     resolution: {integrity: sha512-L8AmtKzdiRyYg7BUXJTzigmhbQRCXFKz6SA1Lqo0+AR2FBbQ4aTAPFSDlOutnFkjhiz8my4agGXog1xlMjPJ6A==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -1109,7 +1109,7 @@ packages:
       colorette: 1.2.2
       fraction.js: 4.1.1
       normalize-range: 0.1.2
-      postcss: 8.3.5
+      postcss: 8.3.6
       postcss-value-parser: 4.1.0
     dev: true
 
@@ -3626,7 +3626,7 @@ packages:
     engines: {node: '>=10.0'}
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.3.5
+      postcss: 8.3.6
     dev: true
 
   /postcss-load-config/3.1.0:
@@ -3643,13 +3643,13 @@ packages:
       yaml: 1.10.2
     dev: true
 
-  /postcss-nested/5.0.5_postcss@8.3.5:
+  /postcss-nested/5.0.5_postcss@8.3.6:
     resolution: {integrity: sha512-GSRXYz5bccobpTzLQZXOnSOfKl6TwVr5CyAQJUPub4nuRJSOECK5AqurxVgmtxP48p0Kc/ndY/YyS1yqldX0Ew==}
     engines: {node: '>=10.0'}
     peerDependencies:
       postcss: ^8.1.13
     dependencies:
-      postcss: 8.3.5
+      postcss: 8.3.6
       postcss-selector-parser: 6.0.6
     dev: true
 
@@ -3678,8 +3678,8 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /postcss/8.3.5:
-    resolution: {integrity: sha512-NxTuJocUhYGsMiMFHDUkmjSKT3EdH4/WbGF6GCi1NDGk+vbcUTun4fpbOqaPtD8IIsztA2ilZm2DhYCuyN58gA==}
+  /postcss/8.3.6:
+    resolution: {integrity: sha512-wG1cc/JhRgdqB6WHEuyLTedf3KIRuD0hG6ldkFEZNCjRxiC+3i6kkWUUbiJQayP28iwG35cEmAbe98585BYV0A==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       colorette: 1.2.2
@@ -3792,7 +3792,7 @@ packages:
     dependencies:
       commander: 6.2.1
       glob: 7.1.7
-      postcss: 8.3.5
+      postcss: 8.3.6
       postcss-selector-parser: 6.0.6
     dev: true
 
@@ -4420,7 +4420,7 @@ packages:
       strip-ansi: 6.0.0
     dev: true
 
-  /tailwindcss/2.2.4_d0cbdb03a6e75c60c9760f17c403e6d9:
+  /tailwindcss/2.2.4_7b69a43ec4689fa7484dee35f79a7806:
     resolution: {integrity: sha512-OdBCPgazNNsknSP+JfrPzkay9aqKjhKtFhbhgxHgvEFdHy/GuRPo2SCJ4w1SFTN8H6FPI4m6qD/Jj20NWY1GkA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -4428,9 +4428,9 @@ packages:
       autoprefixer: ^10.0.2
       postcss: ^8.0.9
     dependencies:
-      '@fullhuman/postcss-purgecss': 4.0.3_postcss@8.3.5
+      '@fullhuman/postcss-purgecss': 4.0.3_postcss@8.3.6
       arg: 5.0.0
-      autoprefixer: 10.3.1_postcss@8.3.5
+      autoprefixer: 10.3.1_postcss@8.3.6
       bytes: 3.1.0
       chalk: 4.1.1
       chokidar: 3.5.2
@@ -4450,10 +4450,10 @@ packages:
       node-emoji: 1.10.0
       normalize-path: 3.0.0
       object-hash: 2.2.0
-      postcss: 8.3.5
+      postcss: 8.3.6
       postcss-js: 3.0.3
       postcss-load-config: 3.1.0
-      postcss-nested: 5.0.5_postcss@8.3.5
+      postcss-nested: 5.0.5_postcss@8.3.6
       postcss-selector-parser: 6.0.6
       postcss-value-parser: 4.1.0
       pretty-hrtime: 1.0.3
