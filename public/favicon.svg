@@ -1,0 +1,79 @@
+<svg
+	height="64"
+	preserveAspectRatio="xMinYMin meet"
+	viewBox="0 0 64 64"
+	width="64"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<style>
+		@font-face {
+			font-display: swap;
+			font-family: 'Chango-Regular-c';
+			font-style: normal;
+			font-weight: normal;
+			src: url('data:font/woff2;charset=utf-8;base64,d09GMgABAAAAAARIAA0AAAAACYAAAAP2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYGYAA0EQgKgXCBbwsMAAE2AiQDFAQgBYwwBywMBxuRCFGUzdEU2c8D21azVoSADFp3GWrlMkowXF47ybzhmfAVD09rvz93ZhcxTdAsmmRLZDxFEoTqrZh/K42f3+VUpaQEFPX+iuwMj8K5MzbtfRXZVoa0sxAoIYWsNPQ83Wj+2yTDJPJALDyRE09sh9bVzh7oB5EkJkPpM9gZ0qX9437qAmgC73yAs48YuWywDCxqoJ1PB9YFOkzAoo/jBkoAHjBsgN0SMYiFCTQAkhAKIfU2PUrSvzGccTvGZ2YgEg4ZOm4+ozG5x7D6Kj8wS3SKCEhnesAIioSMDnWBDidGEIVCYG8jwPZVLgQgNiKDEtQhYwtxgoACAEmY6hIhpzPsuWZmhUhsWxPWDoEnCMUrv9S+vrZ7g9qrtgf2SdiEteu6r1HtomlQ23ZSc5nRdlPzTGp/lfzDamasntpeMDStzMetPazJ9ysXBf7wG40ZYw9r3hUVWICGPbyKYRBUFNgVGJovrflCW1ZGXX+PKLrcMyYiDUrnjCGGLdej25kJ/QczJN7W05nlw6arwbO0WJgmm0ompSo97PQTB91KqrLsZsIjhTGdalqf5wyEQCCsXDc3/9+0uf81pALcpalv+DfYPpKJ/ZM2IaJGAsHAP0T+TDhLixKkZagdsf+8fIs7MIOiNKUGEkJgCQEMTDgK2EEECFV2UJA02UVB1ugIBYVOHgWlRqcCVOn0K0C1cX8C1Kj1KECtBl8C1Gt1FKDBhkbnfoY36ZsGWRy1uJ0pAEJDa5AMFAhZX7lQmKwJSn3tQJXJHqHaRj9Qo205QK2e5Qv1xlYqogE0zkhuKmkyeyz9hKeOxbuw+OWKxMaALFpMmO4LN76gUcabpfRBPDylHB4hSb7gRKk06glkoW1kQmrnTwcHFUsFUHslrjzJshzM3s4f//eaxOIIv9KIaaw6MclrYR2doPlhqZ7YfmIxTrSZ/j0CekM0bhFtG390HlZAJKReVBzXTBSXQ0FUvjT4diMehj0MAf3lPafUZ3janVitPorsv3ZCv2byRNH2LKFU8UCEiYELmVwOvFIkz/FQiQMRQSoo94q4R00wylqsBWwJXgWMcA5nbXDzckWgJ1xzPPekgqSS4iJyn7oUrCCrDTGCpLk0OUJosvySID7DWY7YXwK5RCaTA4Vqt+H8BQcg4FlojltD1hJQiqGbLfHLuyXOE3AroCPQuIOtmGsyDspPVAQ3rOXjeu3eth1q3spmKwLDSW782APZYrsF4xCHuI596AB9GifZ9E5uXiv1EMVlObQqVZ3xw4zrBhJW0I8VPi3JEbI/GNrPe+8SqHiedimVchhL0Dwn4QgrCcUqpfpeddIftQZU6swQYkuEZC1l4I8ijW/RCQAAAA==') format('woff2');
+		}
+		.arrow {
+			/*fill: #eff7ef;*/
+			fill: #f0a027;
+			/*fill: #2777f0;*/
+			/*
+			fill: #666;
+			shape-rendering: crispEdges;
+			*/
+			shape-rendering: geometricPrecision;
+			/*
+			shape-rendering: optimizeSpeed;
+			stroke: #00f;
+			stroke-linejoin: round;
+			stroke-width: 1px;
+			*/
+		}
+		text {
+			dominant-baseline: text-after-edge;
+			/*fill: #eff7ef;*/
+			fill: #2777f0;
+			font-family: 'Chango-Regular-c';
+			font-size: 5em;
+			font-style: normal;
+			font-weight: normal;
+			text-anchor: middle;
+		}
+	</style>
+	<g>
+		<!--
+		<rect
+			fill="#080"
+			height="64"
+			stroke="#f00"
+			stroke-width="1px"
+			width="64"
+			x="0"
+			y="0"
+		/>
+		-->
+		<path
+			class="arrow"
+			d="
+				M 58 16
+				c -8 -17 -41 -16 -46 -6
+				c 2 3 7 2 8 2
+				c 4 -8 30 -6 34 4 
+				c 1 0.5 3 0.5 4 0
+				z
+				m -35 -3
+				c -7 0.75 -7 2 -14 -2.5
+				c 0 1 2 6 6 7
+				c 1 0 1 1 8 -4
+				z
+			"
+			id="arrow_base"
+		/>
+		<text
+			lengthAdjust="spacingAndGlyphs"
+			textLength="92%"
+			x="50%"
+			y="96%"
+		>c</text>
+	</g>
+</svg>
