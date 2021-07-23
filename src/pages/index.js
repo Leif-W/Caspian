@@ -7,6 +7,7 @@ const Home = () => {
 	return(
 		<>
 			<Head>
+				<title>Caspian - Consumerist Cornucopia</title>
 				<link
 					rel='icon'
 					src='/favicon.ico'
