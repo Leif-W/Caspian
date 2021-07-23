@@ -19,6 +19,9 @@
 			fill: #2777f0;
 			/*
 			fill: #666;
+			*/
+			shape-rendering: geometricPrecision;
+			/*
 			stroke: #00f;
 			stroke-linejoin: round;
 			stroke-width: 0.1em;
