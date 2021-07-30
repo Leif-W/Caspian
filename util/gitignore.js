@@ -11,6 +11,7 @@ const headerText = `\
 
 # Auto generated from Toptal's https://gitignore.io/
 `;
+
 const bodyUrl = 'https://www.toptal.com/developers/gitignore/api/' + [
 	'android',
 	'dotenv',
@@ -28,7 +29,8 @@ const bodyUrl = 'https://www.toptal.com/developers/gitignore/api/' + [
 	'yarn',
 	'zsh',
 ].join(',');
-const footerText = `\
+
+const footerText = `
 # Custom Rules
 
 # .env
@@ -38,6 +40,7 @@ const footerText = `\
 # Vercel
 .vercel
 `;
+
 https.get(bodyUrl, (res) => {
 	let bodyText = '';
 
@@ -50,7 +53,7 @@ https.get(bodyUrl, (res) => {
 	});
 
 	res.on('end', () => {
-                fs.writeFileSync(fileName, headerText + bodyText + footerText);
+		fs.writeFileSync(fileName, headerText + bodyText + footerText);
 		console.log('util/gitignore.js - https.get ok - written: ' + fileName);
 	});
 }).on('error', (err) => {
