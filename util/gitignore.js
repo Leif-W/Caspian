@@ -39,6 +39,9 @@ const footerText = `
 
 # Vercel
 .vercel
+
+# Prettier
+**prettier*
 `;
 
 https.get(bodyUrl, (res) => {
