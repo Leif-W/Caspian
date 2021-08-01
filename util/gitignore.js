@@ -42,6 +42,10 @@ const footerText = `
 
 # Prettier
 **prettier*
+
+# MacOS Icon - Workarounds
+Icon?
+Icon\xEF\x80\x8D\xEF\x80\x8D
 `;
 
 https.get(bodyUrl, (res) => {
@@ -56,7 +60,7 @@ https.get(bodyUrl, (res) => {
 	});
 
 	res.on('end', () => {
-		fs.writeFileSync(fileName, headerText + bodyText + footerText);
+		fs.writeFileSync(fileName, headerText + bodyText + footerText, 'latin1');
 		console.log('util/gitignore.js - https.get ok - written: ' + fileName);
 	});
 }).on('error', (err) => {
