@@ -817,6 +817,7 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/android,dotenv,firebase,linux,macos,node,notepadpp,react,vim,visualstudio,visualstudiocode,windows,xcode,yarn,zsh
+
 # Custom Rules
 
 # .env
@@ -825,3 +826,10 @@ FodyWeavers.xsd
 
 # Vercel
 .vercel
+
+# Prettier
+**prettier*
+
+# MacOS Icon - Workarounds
+Icon?
+Icon
