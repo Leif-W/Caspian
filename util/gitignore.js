@@ -44,7 +44,7 @@ const footerText = `
 **prettier*
 
 # MacOS Icon - Workarounds
-Icon?
+Icon\r?
 Icon\xEF\x80\x8D\xEF\x80\x8D
 `;
 

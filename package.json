@@ -4,11 +4,11 @@
   "description": "Caspian - The world's largest endorheic lake.",
   "main": "index.js",
   "scripts": {
-    "build": "next telemetry disable && NEXT_TELEMETRY_DISABLED=1 next build",
-    "dev": "next telemetry disable && NEXT_TELEMETRY_DISABLED=1 next dev",
+    "build": "next telemetry disable && next build",
+    "dev": "next telemetry disable && next dev",
     "gitignore": "node util/gitignore.js",
-    "lint": "next telemetry disable && NEXT_TELEMETRY_DISABLED=1 next lint",
-    "start": "next telemetry disable && NEXT_TELEMETRY_DISABLED=1 next start"
+    "lint": "next telemetry disable && next lint",
+    "start": "next telemetry disable && next start"
   },
   "author": "Leif-W",
   "license": "GPL-3.0",
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/Leif-W/Caspian#readme",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
-    "eslint": "^7.31.0",
+    "eslint": "^7.32.0",
     "eslint-config-next": "^11.0.1",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.7"
@@ -31,7 +31,7 @@
     "@heroicons/react": "^1.0.3",
     "@reduxjs/toolkit": "^1.6.1",
     "@tailwindcss/line-clamp": "^0.2.1",
-    "firebase": "^8.8.0",
+    "firebase": "^8.8.1",
     "firebase-admin": "^9.11.0",
     "next": "^11.0.1",
     "react": "^17.0.2",
