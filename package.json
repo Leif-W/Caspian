@@ -8,6 +8,8 @@
 		"dev": "next dev",
 		"gitignore": "node util/gitignore.js",
 		"lint": "next lint",
+		"postinstall": "next telemetry disable",
+		"preinstall": "npx only-allow pnpm",
 		"start": "next start"
 	},
 	"author": "Leif-W",
