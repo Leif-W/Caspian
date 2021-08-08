@@ -2,7 +2,9 @@
 
 const fs = require('fs');
 const https = require('https');
+
 const fileName = '.gitignore';
+
 const headerText = `\
 # AUTO GENERATED FILE - DO NOT EDIT
 
