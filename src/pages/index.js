@@ -2,6 +2,7 @@
 
 import Head from 'next/head';
 import Header from '../components/Header';
+import Banner from '../components/Banner';
 
 const Home = () => {
 	return(
@@ -18,8 +19,17 @@ const Home = () => {
 			<Header />
 
 			{/* Content */}
-			<main>
-				<h2>Home</h2>
+			<main className='
+				lg:max-w-xl
+				max-w-full
+				mx-auto
+				xl:max-w-2xl
+			'>
+				{/* Banner */}
+				<Banner />
+
+				{/* ProductFeed */}
+				<p>ProductFeed</p>
 			</main>
 		</>
 	);

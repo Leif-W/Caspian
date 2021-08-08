@@ -95,13 +95,13 @@ const Header = () => {
 					{/* account */}
 					<div className='link'>
 						<p>Hello, New User</p>
-						<p className='f-b'>Account & Lists</p>
+						<p className='f-b'>Account &amp; Lists</p>
 					</div>
 
 					{/* orders */}
 					<div className='link'>
 						<p>Returns</p>
-						<p className='f-b'>& Orders</p>
+						<p className='f-b'>&amp; Orders</p>
 					</div>
 
 					{/* basket */}
@@ -127,8 +127,10 @@ const Header = () => {
 								top-0
 								w-4
 							'
-						>0</span>
-						<ShoppingCartIcon className='h-10'/>
+						>
+							0
+						</span>
+						<ShoppingCartIcon className='h-10' />
 						<p
 							className='
 								f-b
@@ -136,11 +138,14 @@ const Header = () => {
 								md:inline
 								mt-2
 							'
-						>Basket</p>
+						>
+							Basket
+						</p>
 					</div>
 				</div>
 			</div>
 
+			{/* TODO: h-scroll */}
 			{/* bottom nav */}
 			<div
 				className='
@@ -171,12 +176,12 @@ const Header = () => {
 				</p>
 				<p className='link'>Prime Video</p>
 				<p className='link'>Caspian Business</p>
-				<p className='link'>Today's Deals</p>
+				<p className='link'>Today&apos;s Deals</p>
 				<p
 					className='
 						hidden
 						link
-						lg:inline-flex
+						md:inline-flex
 					'
 				>
 					Electronics
@@ -184,17 +189,17 @@ const Header = () => {
 				<p
 					className='
 						hidden
-						lg:inline-flex
 						link
+						md:inline-flex
 					'
 				>
-					Food & Grocery
+					Food &amp; Grocery
 				</p>
 				<p
 					className='
 						hidden
-						lg:inline-flex
 						link
+						md:inline-flex
 					'
 				>
 					Prime
@@ -202,8 +207,8 @@ const Header = () => {
 				<p
 					className='
 						hidden
-						lg:inline-flex
 						link
+						md:inline-flex
 					'
 				>
 					Buy Again
@@ -224,7 +229,7 @@ const Header = () => {
 						link
 					'
 				>
-					Health & Personal Care
+					Health &amp; Personal Care
 				</p>
 			</div>
 		</header>

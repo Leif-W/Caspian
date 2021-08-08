@@ -6,7 +6,67 @@
 	.link {
 		@apply cursor-pointer hover:underline;
 	}
+
 	.f-b {
-		@apply font-extrabold md:text-sm;
+		@apply font-extrabold text-xs md:text-sm;
+	}
+
+	.banner {
+		@apply mx-0 relative w-full;
+	}
+
+	.slide-container {
+		@apply flex-col m-0 p-5 md:p-6 lg:p-8 w-full;
+	}
+
+	.image-height {
+		@apply h-32 md:h-40;
+	}
+
+	.slide-top {
+		@apply flex image-height w-full items-start;
+	}
+
+	.slide-bottom {
+		@apply h-16;
+	}
+
+	.text-container {
+		@apply flex flex-grow h-full;
+	}
+
+	.text-position {
+		@apply flex items-center justify-center;
+	}
+
+	.text-itself {
+		@apply bg-opacity-25 bg-white p-4 text-white text-xs md:text-sm;
+	}
+
+	.image-container {
+		@apply flex ml-4 h-full;
+	}
+
+	.image-position {
+		@apply flex items-center justify-center;
+	}
+
+	.image-itself {
+		@apply object-contain image-height;
+	}
+
+	.rgx2-1 {
+		background: radial-gradient(ellipse farthest-side at 10% 25%, #69f, transparent),
+			radial-gradient(ellipse farthest-side at 90% 75%, #f96, #000);
+	}
+
+	.rgx2-2 {
+		background: radial-gradient(ellipse farthest-side at 10% 25%, #f73, transparent),
+			radial-gradient(ellipse farthest-side at 90% 75%, #6f9, #000);
+	}
+
+	.rgx2-3 {
+		background: radial-gradient(ellipse farthest-side at 10% 25%, #96f, transparent),
+			radial-gradient(ellipse farthest-side at 90% 75%, #f69, #000);
 	}
 }
