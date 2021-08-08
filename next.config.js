@@ -1,6 +1,11 @@
 'use strict';
 
 module.exports = {
+	images: {
+		domains: [
+			'fakestoreapi.com',
+		],
+	},
 	webpack: (config) => {
 		let ignoredFiles = [
 			// Vim ignore patterns pulled from .gitignore
