@@ -6,6 +6,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 const Banner = () => {
 	return (
 		<div className='banner'>
+			<div className='banner-gradient' />
 			<Carousel
 				autoPlay={true}
 				infiniteLoop={true}
@@ -14,8 +15,6 @@ const Banner = () => {
 				showIndicators={false}
 				showStatus={false}
 				showThumbs={false}
-				mx-0
-				w-full
 			>
 				<div className='rgx2-1 slide-container'>
 					<div className='slide-top'>

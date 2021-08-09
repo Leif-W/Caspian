@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+	body {
+		@apply bg-gray-900 text-white;
+	}
+
 	.link {
 		@apply cursor-pointer hover:underline;
 	}
@@ -23,12 +27,16 @@
 		@apply h-32 md:h-40;
 	}
 
+	.banner-gradient {
+		@apply absolute bg-gradient-to-t from-gray-900 to-transparent bottom-0 h-48 z-20 w-full;
+	}
+
 	.slide-top {
 		@apply flex image-height w-full items-start;
 	}
 
 	.slide-bottom {
-		@apply h-16;
+		@apply h-24;
 	}
 
 	.text-container {
