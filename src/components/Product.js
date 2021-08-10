@@ -35,7 +35,14 @@ const Product = ({id, title, price, description, category, image}) => {
 			'>
 				{category}
 			</p>
-			<Image src={image} height={200} width={200} objectFit='contain' />
+			<Image
+				alt={title}
+				height='200'
+				layer='fill'
+				objectFit='contain'
+				src={image}
+				width='200'
+			/>
 			<h4 className='my-3'>{title}</h4>
 			<div className='flex'>
 				{Array(rating)
