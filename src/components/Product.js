@@ -58,13 +58,25 @@ const Product = ({id, title, price, description, category, image}) => {
 			</div>
 			{hasPrime && (
 				<div className='
+					-mt-4
 					flex
 					items-center
-					space-x-2
-					-mt-4
 					mb-4
+					rounded-lg
+					space-x-2
 				'>
-					<img className='rounded-lg w-16' src='sovran.svg' alt='caspian sovran shipping' />
+					<div className='
+						h-8
+						w-24
+						relative
+					'>
+						<Image
+							alt='caspian sovran shipping'
+							layout='fill'
+							objectFit='contain'
+							src='/sovran.svg'
+						/>
+					</div>
 					<p className='text-xs text-gray-200'>FREE Speedy Delivery!</p>
 				</div>
 			)}
