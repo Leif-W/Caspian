@@ -60,7 +60,7 @@
 	}
 
 	.image-itself {
-		@apply object-contain image-height;
+		@apply image-height;
 	}
 
 	.rgx2-1 {
