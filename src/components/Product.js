@@ -9,7 +9,7 @@ const MIN_RATING = 1;
 const MAX_RATING = 5;
 
 const Product = ({id, title, price, description, category, image}) => {
-    const [rating] = useState(
+	const [rating] = useState(
 		Math.floor(Math.random() * (MAX_RATING - MIN_RATING + 1)) + MIN_RATING
 	);
 
