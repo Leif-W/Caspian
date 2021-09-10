@@ -6,7 +6,7 @@ specifiers:
   '@tailwindcss/line-clamp': ^0.2.1
   autoprefixer: ^10.3.4
   eslint: ^7.32.0
-  eslint-config-next: ^11.0.1
+  eslint-config-next: ^11.1.2
   firebase: ^8.9.1
   firebase-admin: ^9.11.0
   next: ^11.0.1
@@ -34,7 +34,7 @@ dependencies:
 devDependencies:
   autoprefixer: 10.3.4_postcss@8.3.6
   eslint: 7.32.0
-  eslint-config-next: 11.0.1_eslint@7.32.0+next@11.0.1
+  eslint-config-next: 11.1.2_eslint@7.32.0+next@11.0.1
   postcss: 8.3.6
   tailwindcss: 2.2.7_4dc2d3db2b138fb8fa7d5c7b0c803aba
 
@@ -577,8 +577,10 @@ packages:
     resolution: {integrity: sha512-yZfKh2U6R9tEYyNUrs2V3SBvCMufkJ07xMH5uWy8wqcl5gAXoEw6A/1LDqwX3j7pUutF9d1ZxpdGDA3Uag+aQQ==}
     dev: false
 
-  /@next/eslint-plugin-next/11.0.1:
-    resolution: {integrity: sha512-UzdX3y6XSrj9YuASUb/p4sRvfjP2klj2YgIOfMwrWoLTTPJQMh00hREB9Ftr7m7RIxjVSAaaLXIRLdxvq948GA==}
+  /@next/eslint-plugin-next/11.1.2:
+    resolution: {integrity: sha512-cN+ojHRsufr9Yz0rtvjv8WI5En0RPZRJnt0y16Ha7DD+0n473evz8i1ETEJHmOLeR7iPJR0zxRrxeTN/bJMOjg==}
+    dependencies:
+      glob: 7.1.7
     dev: true
 
   /@next/polyfill-module/11.0.1:
@@ -1847,8 +1849,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-next/11.0.1_eslint@7.32.0+next@11.0.1:
-    resolution: {integrity: sha512-yy63K4Bmy8amE6VMb26CZK6G99cfVX3JaMTvuvmq/LL8/b8vKHcauUZREBTAQ+2DrIvlH4YrFXrkQ1vpYDL9Eg==}
+  /eslint-config-next/11.1.2_eslint@7.32.0+next@11.0.1:
+    resolution: {integrity: sha512-dFutecxX2Z5/QVlLwdtKt+gIfmNMP8Qx6/qZh3LM/DFVdGJEAnUKrr4VwGmACB2kx/PQ5bx3R+QxnEg4fDPiTg==}
     peerDependencies:
       eslint: ^7.23.0
       next: '>=10.2.0'
@@ -1857,7 +1859,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 11.0.1
+      '@next/eslint-plugin-next': 11.1.2
       '@rushstack/eslint-patch': 1.0.6
       '@typescript-eslint/parser': 4.29.1_eslint@7.32.0
       eslint: 7.32.0
