@@ -15,7 +15,7 @@ specifiers:
   react-currency-formatter: ^1.1.0
   react-dom: ^17.0.2
   react-redux: ^7.2.4
-  react-responsive-carousel: ^3.2.20
+  react-responsive-carousel: ^3.2.21
   tailwindcss: ^2.2.15
 
 dependencies:
@@ -29,7 +29,7 @@ dependencies:
   react-currency-formatter: 1.1.0_react@17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-redux: 7.2.4_react-dom@17.0.2+react@17.0.2
-  react-responsive-carousel: 3.2.20
+  react-responsive-carousel: 3.2.21
 
 devDependencies:
   autoprefixer: 10.3.4_postcss@8.3.6
@@ -4040,8 +4040,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /react-responsive-carousel/3.2.20:
-    resolution: {integrity: sha512-uSiNzZOqvn6f40y0zbXyUMuf9Ypgy4UUczOPdUnWfT2vAL2tCeSBQ7viN8GgwiHz4UfUqoAvDbjvbbZFe3TpHA==}
+  /react-responsive-carousel/3.2.21:
+    resolution: {integrity: sha512-y2ueGqv/yo6HQJi9IbrJVRJobp4EOrNe6BQOC61CoADg3wUjq0gqAcrtSsLQIRLtbt6nCo7cTPRX4wAkSwdiTA==}
     dependencies:
       classnames: 2.3.1
       prop-types: 15.7.2
