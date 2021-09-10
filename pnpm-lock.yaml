@@ -4,7 +4,7 @@ specifiers:
   '@heroicons/react': ^1.0.3
   '@reduxjs/toolkit': ^1.6.1
   '@tailwindcss/line-clamp': ^0.2.1
-  autoprefixer: ^10.3.1
+  autoprefixer: ^10.3.4
   eslint: ^7.32.0
   eslint-config-next: ^11.0.1
   firebase: ^8.9.1
@@ -32,11 +32,11 @@ dependencies:
   react-responsive-carousel: 3.2.20
 
 devDependencies:
-  autoprefixer: 10.3.1_postcss@8.3.6
+  autoprefixer: 10.3.4_postcss@8.3.6
   eslint: 7.32.0
   eslint-config-next: 11.0.1_eslint@7.32.0+next@11.0.1
   postcss: 8.3.6
-  tailwindcss: 2.2.7_7b69a43ec4689fa7484dee35f79a7806
+  tailwindcss: 2.2.7_4dc2d3db2b138fb8fa7d5c7b0c803aba
 
 packages:
 
@@ -452,13 +452,13 @@ packages:
     dev: false
     optional: true
 
-  /@google-cloud/firestore/4.14.1:
-    resolution: {integrity: sha512-ecPxrwsk3IWfyILHhVtRJXFcn+CFnlYRbnM6vwS+eEwHAfSFoy4tNXlsvh7c4YihuojAkvgl4+iBxPMwy5X09A==}
+  /@google-cloud/firestore/4.15.1:
+    resolution: {integrity: sha512-2PWsCkEF1W02QbghSeRsNdYKN1qavrHBP3m72gPDMHQSYrGULOaTi7fSJquQmAtc4iPVB2/x6h80rdLHTATQtA==}
     engines: {node: '>=10.10.0'}
     dependencies:
       fast-deep-equal: 3.1.3
       functional-red-black-tree: 1.0.1
-      google-gax: 2.22.1
+      google-gax: 2.25.1
       protobufjs: 6.11.2
     transitivePeerDependencies:
       - supports-color
@@ -486,8 +486,8 @@ packages:
     dev: false
     optional: true
 
-  /@google-cloud/storage/5.13.0:
-    resolution: {integrity: sha512-LN3Cv7NRBbjwdwcrIFbEaKEEUCUr7aIoBa7j1HXeuBLjC1lQ5VGVGEbaLRP6uwgBKVnf5rFYSTA545C1GR+e/A==}
+  /@google-cloud/storage/5.14.1:
+    resolution: {integrity: sha512-rDwL5QKFs4p20lXep/ELYscCpCiaiPK9H9QTnPTqRQgswsDO0p+SEupq0Uw00+r4SfbHnjtvYTzBFlTu7Gn34g==}
     engines: {node: '>=10'}
     dependencies:
       '@google-cloud/common': 3.7.1
@@ -496,7 +496,7 @@ packages:
       arrify: 2.0.1
       async-retry: 1.3.1
       compressible: 2.0.18
-      date-and-time: 1.0.1
+      date-and-time: 2.0.0
       duplexify: 4.1.2
       extend: 3.0.2
       gcs-resumable-upload: 3.3.0
@@ -504,7 +504,6 @@ packages:
       hash-stream-validation: 0.2.4
       mime: 2.5.2
       mime-types: 2.1.32
-      onetime: 5.1.2
       p-limit: 3.1.0
       pumpify: 2.0.1
       snakeize: 0.1.0
@@ -716,7 +715,7 @@ packages:
     peerDependencies:
       tailwindcss: '>=2.0.0'
     dependencies:
-      tailwindcss: 2.2.7_7b69a43ec4689fa7484dee35f79a7806
+      tailwindcss: 2.2.7_4dc2d3db2b138fb8fa7d5c7b0c803aba
     dev: false
 
   /@tootallnate/once/1.1.2:
@@ -1091,15 +1090,15 @@ packages:
     dev: false
     optional: true
 
-  /autoprefixer/10.3.1_postcss@8.3.6:
-    resolution: {integrity: sha512-L8AmtKzdiRyYg7BUXJTzigmhbQRCXFKz6SA1Lqo0+AR2FBbQ4aTAPFSDlOutnFkjhiz8my4agGXog1xlMjPJ6A==}
+  /autoprefixer/10.3.4_postcss@8.3.6:
+    resolution: {integrity: sha512-EKjKDXOq7ug+jagLzmnoTRpTT0q1KVzEJqrJd0hCBa7FiG0WbFOBCcJCy2QkW1OckpO3qgttA1aWjVbeIPAecw==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.16.7
-      caniuse-lite: 1.0.30001249
+      browserslist: 4.17.0
+      caniuse-lite: 1.0.30001255
       colorette: 1.3.0
       fraction.js: 4.1.1
       normalize-range: 0.1.2
@@ -1238,16 +1237,16 @@ packages:
       node-releases: 1.1.74
     dev: false
 
-  /browserslist/4.16.7:
-    resolution: {integrity: sha512-7I4qVwqZltJ7j37wObBe3SoTz+nS8APaNcrBOlgoirb6/HbEU2XxW/LpUDTCngM6iauwFqmRTuOMfyKnFGY5JA==}
+  /browserslist/4.17.0:
+    resolution: {integrity: sha512-g2BJ2a0nEYvEFQC208q8mVAhfNwpZ5Mu8BwgtCdZKO3qx98HChmeg448fPdUzld8aFmfLgVh7yymqV+q1lJZ5g==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001249
+      caniuse-lite: 1.0.30001255
       colorette: 1.3.0
-      electron-to-chromium: 1.3.802
+      electron-to-chromium: 1.3.835
       escalade: 3.1.1
-      node-releases: 1.1.74
+      node-releases: 1.1.75
     dev: true
 
   /buffer-equal-constant-time/1.0.1:
@@ -1299,6 +1298,11 @@ packages:
 
   /caniuse-lite/1.0.30001249:
     resolution: {integrity: sha512-vcX4U8lwVXPdqzPWi6cAJ3FnQaqXbBqy/GZseKNQzRj37J7qZdGcBtxq/QLFNLLlfsoXLUdHw8Iwenri86Tagw==}
+    dev: false
+
+  /caniuse-lite/1.0.30001255:
+    resolution: {integrity: sha512-F+A3N9jTZL882f/fg/WWVnKSu6IOo3ueLz4zwaOPbPYHNmM/ZaDUyzyJwS1mZhX7Ex5jqTyW599Gdelh5PDYLQ==}
+    dev: true
 
   /chalk/2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -1588,8 +1592,8 @@ packages:
     engines: {node: '>= 6'}
     dev: false
 
-  /date-and-time/1.0.1:
-    resolution: {integrity: sha512-7u+uNfnjWkX+YFQfivvW24TjaJG6ahvTrfw1auq7KlC7osuGcZBIWGBvB9UcENjH6JnLVhMqlRripk1dSHjAUA==}
+  /date-and-time/2.0.0:
+    resolution: {integrity: sha512-HJSzj25iPm8E01nt+rSmCIlwjsmjvKfUivG/kXBglpymcHF1FolWAqWwTEV4FvN1Lx5UjPf0J1W4H8yQsVBfFg==}
     dev: false
     optional: true
 
@@ -1735,6 +1739,11 @@ packages:
 
   /electron-to-chromium/1.3.802:
     resolution: {integrity: sha512-dXB0SGSypfm3iEDxrb5n/IVKeX4uuTnFHdve7v+yKJqNpEP0D4mjFJ8e1znmSR+OOVlVC+kDO6f2kAkTFXvJBg==}
+    dev: false
+
+  /electron-to-chromium/1.3.835:
+    resolution: {integrity: sha512-rHQszGg2KLMqOWPNTpwCnlp7Kb85haJa8j089DJCreZueykoSN/in+EMlay3SSDMNKR4VGPvfskxofHV18xVJg==}
+    dev: true
 
   /elliptic/6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
@@ -2204,8 +2213,8 @@ packages:
       jwks-rsa: 2.0.4
       node-forge: 0.10.0
     optionalDependencies:
-      '@google-cloud/firestore': 4.14.1
-      '@google-cloud/storage': 5.13.0
+      '@google-cloud/firestore': 4.15.1
+      '@google-cloud/storage': 5.14.1
     transitivePeerDependencies:
       - '@firebase/app-types'
       - supports-color
@@ -2291,11 +2300,36 @@ packages:
     dev: false
     optional: true
 
+  /gaxios/4.3.1:
+    resolution: {integrity: sha512-9qXV7yrMCGzTrphl9/YGMVH41oSg0rhn1j3wJWed4Oqk45/hXDD2wBT5J1NjQcqTCcv4g3nFnyQ7reSRHNgBgw==}
+    engines: {node: '>=10'}
+    dependencies:
+      abort-controller: 3.0.0
+      extend: 3.0.2
+      https-proxy-agent: 5.0.0
+      is-stream: 2.0.1
+      node-fetch: 2.6.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+    optional: true
+
   /gcp-metadata/4.3.0:
     resolution: {integrity: sha512-L9XQUpvKJCM76YRSmcxrR4mFPzPGsgZUH+GgHMxAET8qc6+BhRJq63RLhWakgEO2KKVgeSDVfyiNjkGSADwNTA==}
     engines: {node: '>=10'}
     dependencies:
       gaxios: 4.3.0
+      json-bigint: 1.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+    optional: true
+
+  /gcp-metadata/4.3.1:
+    resolution: {integrity: sha512-x850LS5N7V1F3UcV7PoupzGsyD6iVwTVvsh3tbXfkctZnBnjW5yu5z1/3k3SehF7TyoTIe78rJs02GMMy+LF+A==}
+    engines: {node: '>=10'}
+    dependencies:
+      gaxios: 4.3.1
       json-bigint: 1.0.0
     transitivePeerDependencies:
       - supports-color
@@ -2408,8 +2442,26 @@ packages:
     dev: false
     optional: true
 
-  /google-gax/2.22.1:
-    resolution: {integrity: sha512-/X5Ym6f6Q4sH/3blMr1w/QzFhH0ZKnx9kOusUPwwZH6JmSwLpbuyUDbOc7MAvadl4r7yI2AASILLWK3fT+1Thg==}
+  /google-auth-library/7.9.1:
+    resolution: {integrity: sha512-cWGykH2WBR+UuYPGRnGVZ6Cjq2ftQiEIFjQWNIRIauZH7hUWoYTr/lkKUqLTYt5dex77nlWWVQ8aPV80mhfp5w==}
+    engines: {node: '>=10'}
+    dependencies:
+      arrify: 2.0.1
+      base64-js: 1.5.1
+      ecdsa-sig-formatter: 1.0.11
+      fast-text-encoding: 1.0.3
+      gaxios: 4.3.1
+      gcp-metadata: 4.3.1
+      gtoken: 5.3.1
+      jws: 4.0.0
+      lru-cache: 6.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+    optional: true
+
+  /google-gax/2.25.1:
+    resolution: {integrity: sha512-wvirrn34kKe42NRF9uy68ukM/2CWT2ce3abS2SOJaMe7Ecdya1Zcd54WAX9WAWnD0WoAfieeibD4o1Ijue8iJw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -2419,11 +2471,11 @@ packages:
       abort-controller: 3.0.0
       duplexify: 4.1.2
       fast-text-encoding: 1.0.3
-      google-auth-library: 7.5.0
+      google-auth-library: 7.9.1
       is-stream-ended: 0.1.4
-      node-fetch: 2.6.1
+      node-fetch: 2.6.2
       object-hash: 2.2.0
-      proto3-json-serializer: 0.1.1
+      proto3-json-serializer: 0.1.3
       protobufjs: 6.11.2
       retry-request: 4.2.2
     transitivePeerDependencies:
@@ -2440,6 +2492,15 @@ packages:
     dev: false
     optional: true
 
+  /google-p12-pem/3.1.2:
+    resolution: {integrity: sha512-tjf3IQIt7tWCDsa0ofDQ1qqSCNzahXDxdAGJDbruWqu3eCg5CKLYKN+hi0s6lfvzYZ1GDVr+oDF9OOWlDSdf0A==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      node-forge: 0.10.0
+    dev: false
+    optional: true
+
   /graceful-fs/4.2.8:
     resolution: {integrity: sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==}
 
@@ -2449,6 +2510,18 @@ packages:
     dependencies:
       gaxios: 4.3.0
       google-p12-pem: 3.1.1
+      jws: 4.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+    optional: true
+
+  /gtoken/5.3.1:
+    resolution: {integrity: sha512-yqOREjzLHcbzz1UrQoxhBtpk8KjrVhuqPE7od1K2uhyxG2BHjKZetlbLw/SPZak/QqTIQW+addS+EcjqQsZbwQ==}
+    engines: {node: '>=10'}
+    dependencies:
+      gaxios: 4.3.1
+      google-p12-pem: 3.1.2
       jws: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -3180,12 +3253,6 @@ packages:
     dev: false
     optional: true
 
-  /mimic-fn/2.1.0:
-    resolution: {integrity: sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==}
-    engines: {node: '>=6'}
-    dev: false
-    optional: true
-
   /minimalistic-assert/1.0.1:
     resolution: {integrity: sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==}
     dev: false
@@ -3318,6 +3385,12 @@ packages:
     engines: {node: 4.x || >=6.0.0}
     dev: false
 
+  /node-fetch/2.6.2:
+    resolution: {integrity: sha512-aLoxToI6RfZ+0NOjmWAgn9+LEd30YCkJKFSyWacNZdEKTit/ZMcKjGkTRo8uWEsnIb/hfKecNPEbln02PdWbcA==}
+    engines: {node: 4.x || >=6.0.0}
+    dev: false
+    optional: true
+
   /node-forge/0.10.0:
     resolution: {integrity: sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==}
     engines: {node: '>= 6.0.0'}
@@ -3359,6 +3432,11 @@ packages:
 
   /node-releases/1.1.74:
     resolution: {integrity: sha512-caJBVempXZPepZoZAPCWRTNxYQ+xtG/KAi4ozTA5A+nJ7IU+kLQCbqaUjb5Rwy14M9upBWiQ4NutcmW04LJSRw==}
+    dev: false
+
+  /node-releases/1.1.75:
+    resolution: {integrity: sha512-Qe5OUajvqrqDSy6wrWFmMwfJ0jVgwiw4T3KqmbTcZ62qW0gQkheXYhcFM1+lOVcGUoRxcEcfyvFMAnDgaF1VWw==}
+    dev: true
 
   /normalize-package-data/2.5.0:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
@@ -3442,14 +3520,6 @@ packages:
     resolution: {integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=}
     dependencies:
       wrappy: 1.0.2
-
-  /onetime/5.1.2:
-    resolution: {integrity: sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==}
-    engines: {node: '>=6'}
-    dependencies:
-      mimic-fn: 2.1.0
-    dev: false
-    optional: true
 
   /optionator/0.9.1:
     resolution: {integrity: sha512-74RlY5FCnhq4jRxVUPKDaRwrVNXMqsGsiW6AJw4XK8hmtm10wC0ypZBLw5IIp85NZMr91+qd1RvvENwg7jjRFw==}
@@ -3750,8 +3820,8 @@ packages:
       object-assign: 4.1.1
       react-is: 16.13.1
 
-  /proto3-json-serializer/0.1.1:
-    resolution: {integrity: sha512-Wucuvf7SqAw1wcai0zV+3jW3QZJiO/W9wZoJaTheebYdwfj2k9VfF3Gw9r2vGAaTeslhMbkVbojJG0+LjpgLxQ==}
+  /proto3-json-serializer/0.1.3:
+    resolution: {integrity: sha512-X0DAtxCBsy1NDn84huVFGOFgBslT2gBmM+85nY6/5SOAaCon1jzVNdvi74foIyFvs5CjtSbQsepsM5TsyNhqQw==}
     dev: false
     optional: true
 
@@ -4476,7 +4546,7 @@ packages:
       strip-ansi: 6.0.0
     dev: true
 
-  /tailwindcss/2.2.7_7b69a43ec4689fa7484dee35f79a7806:
+  /tailwindcss/2.2.7_4dc2d3db2b138fb8fa7d5c7b0c803aba:
     resolution: {integrity: sha512-jv35rugP5j8PpzbXnsria7ZAry7Evh0KtQ4MZqNd+PhF+oIKPwJTVwe/rmfRx9cZw3W7iPZyzBmeoAoNwfJ1yg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -4485,7 +4555,7 @@ packages:
       postcss: ^8.0.9
     dependencies:
       arg: 5.0.0
-      autoprefixer: 10.3.1_postcss@8.3.6
+      autoprefixer: 10.3.4_postcss@8.3.6
       bytes: 3.1.0
       chalk: 4.1.2
       chokidar: 3.5.2

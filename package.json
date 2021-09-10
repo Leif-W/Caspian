@@ -24,7 +24,7 @@
 	"homepage": "https://github.com/Leif-W/Caspian#readme",
 	"private": true,
 	"devDependencies": {
-		"autoprefixer": "^10.3.1",
+		"autoprefixer": "^10.3.4",
 		"eslint": "^7.32.0",
 		"eslint-config-next": "^11.0.1",
 		"postcss": "^8.3.6",
