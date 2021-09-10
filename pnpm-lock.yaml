@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@heroicons/react': ^1.0.3
+  '@heroicons/react': ^1.0.4
   '@reduxjs/toolkit': ^1.6.1
   '@tailwindcss/line-clamp': ^0.2.1
   autoprefixer: ^10.3.4
@@ -19,7 +19,7 @@ specifiers:
   tailwindcss: ^2.2.15
 
 dependencies:
-  '@heroicons/react': 1.0.3_react@17.0.2
+  '@heroicons/react': 1.0.4_react@17.0.2
   '@reduxjs/toolkit': 1.6.1_react-redux@7.2.4+react@17.0.2
   '@tailwindcss/line-clamp': 0.2.1_tailwindcss@2.2.15
   firebase: 8.9.1
@@ -550,8 +550,8 @@ packages:
     resolution: {integrity: sha512-sqKVVVOe5ivCaXDWivIJYVSaEgdQK9ul7a4Kity5Iw7u9+wBAPbX1RMSnLLmp7O4Vzj0WOWwMAJsTL00xwaNug==}
     dev: false
 
-  /@heroicons/react/1.0.3_react@17.0.2:
-    resolution: {integrity: sha512-wdzWbDiFKzeL6xFJsgY2PqvDkx4hFmQDpEFRVj872EA71XOjr8g0DQj5rHWm0y7LwfGOFL0eQmEiMbTyGNOnTQ==}
+  /@heroicons/react/1.0.4_react@17.0.2:
+    resolution: {integrity: sha512-3kOrTmo8+Z8o6AL0rzN82MOf8J5CuxhRLFhpI8mrn+3OqekA6d5eb1GYO3EYYo1Vn6mYQSMNTzCWbEwUInb0cQ==}
     peerDependencies:
       react: '>= 16'
     dependencies:
