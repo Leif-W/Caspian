@@ -34,7 +34,7 @@
 		"@heroicons/react": "^1.0.4",
 		"@reduxjs/toolkit": "^1.6.1",
 		"@tailwindcss/line-clamp": "^0.2.1",
-		"firebase": "^8.9.1",
+		"firebase": "^8.10.0",
 		"firebase-admin": "^9.11.1",
 		"next": "^11.1.2",
 		"react": "^17.0.2",
