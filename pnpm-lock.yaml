@@ -14,13 +14,13 @@ specifiers:
   react: ^17.0.2
   react-currency-formatter: ^1.1.0
   react-dom: ^17.0.2
-  react-redux: ^7.2.4
+  react-redux: ^7.2.5
   react-responsive-carousel: ^3.2.21
   tailwindcss: ^2.2.15
 
 dependencies:
   '@heroicons/react': 1.0.4_react@17.0.2
-  '@reduxjs/toolkit': 1.6.1_react-redux@7.2.4+react@17.0.2
+  '@reduxjs/toolkit': 1.6.1_react-redux@7.2.5+react@17.0.2
   '@tailwindcss/line-clamp': 0.2.1_tailwindcss@2.2.15
   firebase: 8.9.1
   firebase-admin: 9.11.0
@@ -28,7 +28,7 @@ dependencies:
   react: 17.0.2
   react-currency-formatter: 1.1.0_react@17.0.2
   react-dom: 17.0.2_react@17.0.2
-  react-redux: 7.2.4_react-dom@17.0.2+react@17.0.2
+  react-redux: 7.2.5_react-dom@17.0.2+react@17.0.2
   react-responsive-carousel: 3.2.21
 
 devDependencies:
@@ -689,7 +689,7 @@ packages:
     resolution: {integrity: sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=}
     dev: false
 
-  /@reduxjs/toolkit/1.6.1_react-redux@7.2.4+react@17.0.2:
+  /@reduxjs/toolkit/1.6.1_react-redux@7.2.5+react@17.0.2:
     resolution: {integrity: sha512-pa3nqclCJaZPAyBhruQtiRwtTjottRrVJqziVZcWzI73i6L3miLTtUyWfauwv08HWtiXLx1xGyGt+yLFfW/d0A==}
     peerDependencies:
       react: ^16.14.0 || ^17.0.0
@@ -702,7 +702,7 @@ packages:
     dependencies:
       immer: 9.0.5
       react: 17.0.2
-      react-redux: 7.2.4_react-dom@17.0.2+react@17.0.2
+      react-redux: 7.2.5_react-dom@17.0.2+react@17.0.2
       redux: 4.1.1
       redux-thunk: 2.3.0
       reselect: 4.0.0
@@ -4013,8 +4013,8 @@ packages:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
     dev: false
 
-  /react-redux/7.2.4_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-hOQ5eOSkEJEXdpIKbnRyl04LhaWabkDPV+Ix97wqQX3T3d2NQ8DUblNXXtNMavc7DpswyQM6xfaN4HQDKNY2JA==}
+  /react-redux/7.2.5_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-Dt29bNyBsbQaysp6s/dN0gUodcq+dVKKER8Qv82UrpeygwYeX1raTtil7O/fftw/rFqzaf6gJhDZRkkZnn6bjg==}
     peerDependencies:
       react: ^16.8.3 || ^17
       react-dom: '*'
