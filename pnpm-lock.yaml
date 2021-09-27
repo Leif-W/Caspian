@@ -4,7 +4,7 @@ specifiers:
   '@heroicons/react': ^1.0.4
   '@reduxjs/toolkit': ^1.6.1
   '@tailwindcss/line-clamp': ^0.2.1
-  autoprefixer: ^10.3.5
+  autoprefixer: ^10.3.6
   eslint: ^7.32.0
   eslint-config-next: ^11.1.2
   firebase: 9.1.0
@@ -32,11 +32,11 @@ dependencies:
   react-responsive-carousel: 3.2.21
 
 devDependencies:
-  autoprefixer: 10.3.5_postcss@8.3.8
+  autoprefixer: 10.3.6_postcss@8.3.8
   eslint: 7.32.0
   eslint-config-next: 11.1.2_eslint@7.32.0+next@11.1.2
   postcss: 8.3.8
-  tailwindcss: 2.2.15_48ef782afd3a36c9f19ae451c44e9854
+  tailwindcss: 2.2.15_d90402d1bb3b165c9c83046beac13a8b
 
 packages:
 
@@ -954,7 +954,7 @@ packages:
     peerDependencies:
       tailwindcss: '>=2.0.0'
     dependencies:
-      tailwindcss: 2.2.15_48ef782afd3a36c9f19ae451c44e9854
+      tailwindcss: 2.2.15_d90402d1bb3b165c9c83046beac13a8b
     dev: false
 
   /@tootallnate/once/1.1.2:
@@ -1338,8 +1338,8 @@ packages:
     dev: false
     optional: true
 
-  /autoprefixer/10.3.5_postcss@8.3.8:
-    resolution: {integrity: sha512-2H5kQSsyoOMdIehTzIt/sC9ZDIgWqlkG/dbevm9B9xQZ1TDPBHpNUDW5ENqqQQzuaBWEo75JkV0LJe+o5Lnr5g==}
+  /autoprefixer/10.3.6_postcss@8.3.8:
+    resolution: {integrity: sha512-3bDjTfF0MfZntwVCSd18XAT2Zndufh3Mep+mafbzdIQEeWbncVRUVDjH8/EPANV9Hq40seJ24QcYAyhUsFz7gQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -1348,7 +1348,7 @@ packages:
       browserslist: 4.17.1
       caniuse-lite: 1.0.30001260
       fraction.js: 4.1.1
-      nanocolors: 0.1.12
+      nanocolors: 0.2.10
       normalize-range: 0.1.2
       postcss: 8.3.8
       postcss-value-parser: 4.1.0
@@ -3654,6 +3654,10 @@ packages:
     resolution: {integrity: sha512-2nMHqg1x5PU+unxX7PGY7AuYxl2qDx7PSrTRjizr8sxdd3l/3hBuWWaki62qmtYm2U5i4Z5E7GbjlyDFhs9/EQ==}
     dev: true
 
+  /nanocolors/0.2.10:
+    resolution: {integrity: sha512-i+EDWGsJClQwR/bhLIG/CObZZwaYaS5qt+yjxZbfV+77QiNHNzE9nj4d9Ut1TGZ0R0eSwPcQWzReASzXuw/7oA==}
+    dev: true
+
   /nanocolors/0.2.3:
     resolution: {integrity: sha512-RxGTOApG8prHMA08UBMOT6qYzcBBW2EMBv7SRBqoXg/Dqp6G3yT7kLy1tpFuYLO+5h7eajmdiIHJA8oewN58XQ==}
     dev: true
@@ -4971,7 +4975,7 @@ packages:
       strip-ansi: 6.0.0
     dev: true
 
-  /tailwindcss/2.2.15_48ef782afd3a36c9f19ae451c44e9854:
+  /tailwindcss/2.2.15_d90402d1bb3b165c9c83046beac13a8b:
     resolution: {integrity: sha512-WgV41xTMbnSoTNMNnJvShQZ+8GmY86DmXTrCgnsveNZJdlybfwCItV8kAqjYmU49YiFr+ofzmT1JlAKajBZboQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -4980,7 +4984,7 @@ packages:
       postcss: ^8.0.9
     dependencies:
       arg: 5.0.1
-      autoprefixer: 10.3.5_postcss@8.3.8
+      autoprefixer: 10.3.6_postcss@8.3.8
       bytes: 3.1.0
       chalk: 4.1.2
       chokidar: 3.5.2
