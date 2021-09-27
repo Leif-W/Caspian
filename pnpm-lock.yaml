@@ -16,12 +16,12 @@ specifiers:
   react-dom: ^17.0.2
   react-redux: ^7.2.5
   react-responsive-carousel: ^3.2.21
-  tailwindcss: ^2.2.15
+  tailwindcss: ^2.2.16
 
 dependencies:
   '@heroicons/react': 1.0.4_react@17.0.2
   '@reduxjs/toolkit': 1.6.1_react-redux@7.2.5+react@17.0.2
-  '@tailwindcss/line-clamp': 0.2.1_tailwindcss@2.2.15
+  '@tailwindcss/line-clamp': 0.2.1_tailwindcss@2.2.16
   firebase: 9.1.0
   firebase-admin: 9.11.1
   next: 11.1.2_react-dom@17.0.2+react@17.0.2
@@ -36,7 +36,7 @@ devDependencies:
   eslint: 7.32.0
   eslint-config-next: 11.1.2_eslint@7.32.0+next@11.1.2
   postcss: 8.3.8
-  tailwindcss: 2.2.15_d90402d1bb3b165c9c83046beac13a8b
+  tailwindcss: 2.2.16_d90402d1bb3b165c9c83046beac13a8b
 
 packages:
 
@@ -949,12 +949,12 @@ packages:
     resolution: {integrity: sha512-Myxw//kzromB9yWgS8qYGuGVf91oBUUJpNvy5eM50sqvmKLbKjwLxohJnkWGTeeI9v9IBMtPLxz5Gc60FIfvCA==}
     dev: true
 
-  /@tailwindcss/line-clamp/0.2.1_tailwindcss@2.2.15:
+  /@tailwindcss/line-clamp/0.2.1_tailwindcss@2.2.16:
     resolution: {integrity: sha512-Hq2KJY1+T2v7jw/mnT3mnC7CKbp5kj1XTqzSb2xbEt1j+JkxIR6N3ijsN/WevZtsKJfVE1KOejA/3IRKuhZEsQ==}
     peerDependencies:
       tailwindcss: '>=2.0.0'
     dependencies:
-      tailwindcss: 2.2.15_d90402d1bb3b165c9c83046beac13a8b
+      tailwindcss: 2.2.16_d90402d1bb3b165c9c83046beac13a8b
     dev: false
 
   /@tootallnate/once/1.1.2:
@@ -4975,8 +4975,8 @@ packages:
       strip-ansi: 6.0.0
     dev: true
 
-  /tailwindcss/2.2.15_d90402d1bb3b165c9c83046beac13a8b:
-    resolution: {integrity: sha512-WgV41xTMbnSoTNMNnJvShQZ+8GmY86DmXTrCgnsveNZJdlybfwCItV8kAqjYmU49YiFr+ofzmT1JlAKajBZboQ==}
+  /tailwindcss/2.2.16_d90402d1bb3b165c9c83046beac13a8b:
+    resolution: {integrity: sha512-EireCtpQyyJ4Xz8NYzHafBoy4baCOO96flM0+HgtsFcIQ9KFy/YBK3GEtlnD+rXen0e4xm8t3WiUcKBJmN6yjg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
