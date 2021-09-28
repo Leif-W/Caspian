@@ -279,6 +279,10 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+### Node Patch ###
+# Serverless Webpack directories
+.webpack/
+
 ### NotepadPP ###
 # Notepad++ backups #
 *.bak
